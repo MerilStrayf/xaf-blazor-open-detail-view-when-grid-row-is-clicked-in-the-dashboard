@@ -1,9 +1,8 @@
-﻿using DevExpress.ExpressApp.Blazor;
-using DevExpress.ExpressApp;
+﻿using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.Blazor;
 using DevExpress.Persistent.Base;
-using Microsoft.JSInterop;
-using static System.Net.Mime.MediaTypeNames;
 using dxTestSolution.Module.BusinessObjects;
+using Microsoft.JSInterop;
 
 namespace OpenViewFromDashboard.Blazor.Server.Controllers;
 public class BlazorShowDetailViewFromDashboardController : ObjectViewController<DetailView, IDashboardData> {
@@ -24,14 +23,14 @@ public class BlazorShowDetailViewFromDashboardController : ObjectViewController<
     }
     [JSInvokable]
     public void ShowDetailView(string oidString) {
-        if (!Guid.TryParse(oidString, out var oid)) {
+        if(!Guid.TryParse(oidString, out var oid)) {
             return;
         }
         var objectSpace = Application.CreateObjectSpace(typeof(Contact));
         var item = objectSpace.FirstOrDefault<Contact>(c => c.ID == oid);
-        if (item is not null) {
-            var detailView = Application.CreateDetailView(objectSpace, item);
-            Frame.SetView(detailView);
+        if(item is not null) {
+            var detailView = Application.CreateDetailView(objectSpace, item, true);
+            Application.ShowViewStrategy.ShowViewFromCommonView(detailView);
         } else {
             objectSpace.Dispose();
         }
