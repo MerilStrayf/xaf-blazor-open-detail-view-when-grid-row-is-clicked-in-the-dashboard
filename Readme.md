@@ -1,5 +1,4 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/434202214/23.1.5%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1049664)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
@@ -13,19 +12,16 @@ This example demonstrates how to invoke a Detail View when a user clicks a row i
 ## Implementation Details
 See the following help topic for more information: [Open a Detail View When the Grid Row is Clicked in the Dashboard (Blazor)](https://docs.devexpress.com/eXpressAppFramework/403531/analytics/dashboards/open-a-detail-view-when-the-grid-row-is-clicked-in-the-dashboard-blazor)
 
-<!-- default file list -->
 ## Files to Look At
 
-* [customScript.js](CS/EF/OpenViewFromDashboardEF/OpenViewFromDashboardEF.Blazor.Server/wwwroot/js/customScript.js)
-* [BlazorShowDetailViewFromDashboardController.cs](CS/EF/OpenViewFromDashboardEF/OpenViewFromDashboardEF.Blazor.Server/Controllers/BlazorShowDetailViewFromDashboardController.cs)
-
-<!-- default file list end --> 
+- [customScript.js](CS/EF/OpenViewFromDashboardEF/OpenViewFromDashboardEF.Blazor.Server/wwwroot/js/customScript.js)
+- [BlazorShowDetailViewFromDashboardController.cs](CS/EF/OpenViewFromDashboardEF/OpenViewFromDashboardEF.Blazor.Server/Controllers/BlazorShowDetailViewFromDashboardController.cs)
 
 ## Documentation
 
-* [Dashboards Module](https://docs.devexpress.com/eXpressAppFramework/117449/analytics/dashboards-module)
-* [Open a Detail View When the Grid Row is Clicked in the Dashboard (Blazor)](https://docs.devexpress.com/eXpressAppFramework/403531/analytics/dashboards/open-a-detail-view-when-the-grid-row-is-clicked-in-the-dashboard-blazor)
-* [Open a Detail View When the Grid Row is Clicked in the Dashboard (WinForms and ASP.NET Web Forms)](https://docs.devexpress.com/eXpressAppFramework/118348/analytics/dashboards/open-a-detail-view-when-the-grid-row-is-clicked-in-the-dashboard-winforms-web-forms)
+- [Dashboards Module](https://docs.devexpress.com/eXpressAppFramework/117449/analytics/dashboards-module)
+- [Open a Detail View When the Grid Row is Clicked in the Dashboard (Blazor)](https://docs.devexpress.com/eXpressAppFramework/403531/analytics/dashboards/open-a-detail-view-when-the-grid-row-is-clicked-in-the-dashboard-blazor)
+- [Open a Detail View When the Grid Row is Clicked in the Dashboard (WinForms and ASP.NET Web Forms)](https://docs.devexpress.com/eXpressAppFramework/118348/analytics/dashboards/open-a-detail-view-when-the-grid-row-is-clicked-in-the-dashboard-winforms-web-forms)
 
 ## More Examples
 
